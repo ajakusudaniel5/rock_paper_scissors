@@ -11,5 +11,12 @@ function getComputerChoice() {
             return "scissors"
             break;
     }
-}
+};
 console.log(getComputerChoice());
+
+function getHumanChoice() {
+    let inputMessage = prompt("Type rock, paper or scissors ");
+    return inputMessage;
+};
+
+console.log(getHumanChoice());
